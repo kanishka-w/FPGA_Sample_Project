@@ -44,7 +44,7 @@ begin
 	end if;
 end process;
 
-led <= count(25);
+led <= count(24); --Make the blink faster
 
 end Behavioral;
 
